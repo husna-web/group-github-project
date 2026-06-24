@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+.navbar{
+    /* height: 85px; */
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+  transition: 0.3s ease;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.08);
+}
+.navbar.scrolled {
+  background:#272727;
+  opacity: 0.5;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 50px;
+     color:white;
+      font-family: "Ubuntu", sans-serif;
+
+}
+#navimg{
+    width: 90px;
+}
+.navbar-nav{
+padding: 10px;
+}
+
+a.nav-link{
+     font-size: 20px;
+    font-weight: 200;
+  font-family: "Ubuntu", sans-serif;
+
+     color:white;
+}
+.dropdown-menu{
+    background-color: rgb(131, 131, 130); 
+}
+.hero-section{
+    height: 100vh;
+    max-width: 100%;
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url(https://s3.us-east-2.amazonaws.com/terracaribbean.com/wp-content/uploads/2025/04/22005158/blog_whats-the-difference-between-houses-and-villas_Terracaribbeanbarbadosltd-335211-villa-pool-chairs-blogbanner1.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.Hero{
+    padding-left: 90px;
+}
+span{
+color: rgb(230, 164, 140) ;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: "Ubuntu", sans-serif;
+
+   
+}
+h1{
+    font-size: 4em;
+    font-weight: 700;
+font-family: "Ubuntu", sans-serif;
+
+     color:white ;
+}
+P{
+   max-width: 600px;
+    color:white;
+     font-size: 1.3em;
+   font-family: "Ubuntu", sans-serif;
+
+     /* font-weight: 200; */
+    
+}
+button{
+    background-color: rgb(230, 164, 140);
+    color:rgb(73, 71, 71);
+    padding: 10px;
+    width: 120px;
+    border: none;
+  font-family: "Ubuntu", sans-serif;
+
+}
+
+.section1{
+     min-height: 100vh;
+    min-width: 100%;
+    background-color:#272727 ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+h2{
+    color: white;
+    font-size:3em ;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+
+}
+.project{
+    width: 100%;
+    height: 650px;
+    background-color:#272727 ;
+    display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+
+}
+.pic1{
+    background-image: url(https://images.surferseo.art/fdb08e2e-5d39-402c-ad0c-8a3293301d9e.png);
+    height: 550px;
+    width: 50%;
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 400px;
+position:absolute;
+z-index: 1;
+    
+}
+.text1{
+    width: 600px;
+    height: 350px;
+    background-color:#272727 ;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    bottom: 40px;
+    right: 280px;
+     /* border: 2px solid red; */
+     
+}
+.pic2{
+    background-image: url(https://images.surferseo.art/fdb08e2e-5d39-402c-ad0c-8a3293301d9e.png);
+    height: 550px;
+    width: 50%;
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-right: 400px;
+position:absolute;
+z-index: 1;
+
+}
+.pic1,
+.pic2{
+    transition: transform 0.5s ease;
+}
+
+.pic1:hover,
+.pic2:hover{
+    transform: scale(1.05);
+}
+.text2{
+    width: 600px;
+    height: 350px;
+    background-color:#272727 ;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    /* bottom: 40px; */
+    left: 240px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+}
+h3{
+    font-size: 2.5em;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.projectpara{
+    width: 480px;
+}
+.insidetextbox{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+#houseCarousel .carousel-item{
+    height: 600px;
+    position: relative;
+}
+
+#houseCarousel .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 600px;
+    /* height: 500px; */
+}
+
+.carousel-content span{
+    color: rgb(230,164,140);
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.carousel-content h1{
+    font-size: 4rem;
+    margin: 15px 0;
+}
+
+
+
+a{
+    text-decoration: none;
+ color: rgb(230,164,140);
+    font-family: "Ubuntu", sans-serif;
+  font-size: 1.3em;
+}
+
+.hero-btn:hover{
+    background: white;
+}
+.news-section{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: bisque; */
+   background-color: #272727;
+  
+}
+.news-card{
+    width: 350px;
+    height: 420px;
+    background-color: blue;
+    
+}
+.news-card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.latest-news-heading{
+color: white;
+    font-size:3em ;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 120px;
+  padding: 20px;
+
+}
+.img1, .img2, .img3{
+    width: 350px;
+     height: 440px;
+     position: absolute;
+    
+}
+.img1, .img2, .img3:hover{
+     transform: scale(1.05);
+}
+
+.news-card-text{
+    width: 280px;
+    height: 100px;
+    background-color: cadetblue;
+    position: relative;
+    top: 380px;
+    left: 70px;
+     background-color: #272727;
+   
+
+}
+.h4{
+      color: white;
+      font-size: 16px;
+      font-weight: 100;
+}
+.a{
+    color: white;
+      font-size: 16px;
+      font-weight: 100;
+}
+
+@media (max-width: 768px){
+
+    /* Navbar */
+    .navbar-brand{
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    #navimg{
+        width: 60px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        background: #272727;
+    }
+
+    /* Hero Section */
+    .Hero{
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        max-width: 100%;
+        font-size: 1rem;
+    }
+
+    /* Project Cards */
+    .project{
+        height: auto;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    .pic1,
+    .pic2{
+        position: static;
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .text1,
+    .text2{
+        position: static;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        left: 0;
+        right: 0;
+    }
+
+    .insidetextbox{
+        margin: 20px;
+    }
+
+    .projectpara{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    button{
+        width: 100%;
+        max-width: 200px;
+    }
+}
